@@ -7,10 +7,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Corben";
     text-align: center;
-}
-h1 {
     font-size:40pt;
 }
+
 header {
     text-align:center;
 }
@@ -40,7 +39,7 @@ header {
 
 #Hobbies  ul li {
     text-align: left;
-    color: darkgreen;
+    color: rgb(65, 65, 222);
 }
 /* Gallery */
 
@@ -54,4 +53,37 @@ header {
 
 #Gallery figure {
     text-align:center;
+}
+
+/* Literature */
+#Lit {
+    border: 2px solid #000000;
+    margin-bottom: 2rem;
+}
+
+#Lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+#Lit div p {
+    padding: 0.3rem 0;
+    clear:both;
+}
+
+/* Dropcaps */
+
+#Lit div p:first-child:first-letter {
+
+    color:rgb(65, 65, 222);
+    float:left;
+    font-size:3em;
+    padding:.25em;
+    margin-right:.25em;
+    line-height:.65;
+    border:3px solid black;
+    text-shadow: 2px 2px 3px rgb(37, 35, 35);
+    box-shadow: 5px 5px 5px rgb(37, 35, 35);
+    border-top-left-radius:.2em;
+    border-bottom-right-radius:.2em;
 }
