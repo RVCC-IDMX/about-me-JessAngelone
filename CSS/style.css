@@ -9,30 +9,49 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 h1 {
-    font-size: 40pt;
+    font-size:40pt;
 }
 header {
-    text-align: center;
+    text-align:center;
 }
 
 #hero, footer {
     color: #000000;
     background-color: #D5EAFA;
     border: 2px solid #000000 ;
-    text-align: center;
-    padding: 10px;
+    text-align:center;
+    padding:10px;
 }
+
+
+/* Hero Section */
 
 #hero img {
-    width: 300px;
+    width:300px;
 }
 
+/* Bio Section */
+
 #bio {
-    text-align: center;
+    text-align:center;
 }
+
+/* Hobbies */
 
 #Hobbies  ul li {
     text-align: left;
     color: darkgreen;
 }
-    
+/* Gallery */
+
+#Gallery {
+    border: 2px solid #000000;
+}
+
+#Gallery img {
+    max-width:100%;
+}
+
+#Gallery figure {
+    text-align:center;
+}
