@@ -47,7 +47,7 @@ header {
 }
 #Hobbies  ul li {
     text-align:left;
-    color: rgb(65, 65, 222);
+    color: rgb(7, 7, 129);
 }
 
 /* Gallery */
@@ -113,7 +113,7 @@ figcaption {
 }
 
 figure img {
-    width: 100%;
+    max-width: 100%;
 }
 
 #Lit div {
@@ -143,4 +143,16 @@ figure img {
     display: block;
  }
 }
+#Video {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
 
+#Video figcaption {
+    text-align: center;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+}
